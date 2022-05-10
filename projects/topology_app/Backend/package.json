@@ -1,0 +1,32 @@
+{
+  "type":"module",
+  "name": "omar-portfolio",
+  "version": "1.0.0",
+  "description": "\"Omar's portfolio that contains his skills, info ,contact,interests and social media accounts\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -x ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-sherif9992/Omar-portfolio.git"
+  },
+  "keywords": [
+    "portofolio",
+    "backend"
+  ],
+  "author": "Omar Sherif",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/omar-sherif9992/Omar-portfolio/issues"
+  },
+  "homepage": "https://github.com/omar-sherif9992/Omar-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "mongodb": "^4.4.1"
+  }
+}

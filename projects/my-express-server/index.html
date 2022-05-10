@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content='Description'>
+    <meta name='keywords' content='Search Engine Keywords'>
+    <meta name='author' content='Omar Sherif'>
+    <!-- it tells the browser made by who -->
+    <meta http-equiv='refresh' content='60'>
+    <meta name='theme-color' media='(prefers-color-scheme: light)' content='white'>
+    <meta name='theme-color' media='(prefers-color-scheme: dark)' content='black'>
+    <!-- it refreshes the page by specified by content -->
+    <link rel='manifest' href='site.webmanifest'>
+    <link rel='icon' type='image/png' sizes='32x32' href='address'>
+
+    <!-- Bootstrap CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We' crossorigin='anonymous'>
+    <!--Font Awesome icons-->
+    <script src='https://kit.fontawesome.com/cc3cb258ce.js' crossorigin='anonymous'></script>
+
+    <!--CSS Stylesheet-->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <title>Calculator</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator </h1>
+        <form method='post' action='/'>
+            <input type='text' id="num1" name='weight' placeholder="weight">
+            <input type='text' id="height" name='height' placeholder="height">
+
+            <button type='submit' name='submit' class='btn btn-primary'>Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--jQuery-->
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+
+    <!--js-->
+    <script src='index.js' charset='utf-8'></script>
+
+    <script src='https://www.google-analytics.com/analytics.js' async></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js' integrity='sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj' crossorigin='anonymous'></script>
+    <!--It’s a collection of superfast tests – or “detects” as we like to call them – which run as your web page loads, then you can use the results to tailor the experience to the user.-->
+    <script src='js/vendor/modernizr-3.11.2.min.js'></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+</body>
+
+</html>

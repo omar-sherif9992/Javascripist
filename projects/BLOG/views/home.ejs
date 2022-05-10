@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+    <h1>home</h1>
+    <p>
+        <div class='container-fluid'>
+            <%= homeStartingContent %>
+        </div>
+
+        <% allPosts.forEach(function(post){ %>
+            <div class='container-fluid'>
+                <h1>
+                    <%= post.title; %>
+                </h1>
+                <p>
+                    <%=post.body.substring(0,10)%> <a href="/post/<%= post.title %>">Read More...</a>
+                </p>
+            </div>
+            <% }); %>
+    </p>
+    <%- include("partials/footer"); -%>
