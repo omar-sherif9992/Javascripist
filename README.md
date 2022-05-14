@@ -7,21 +7,22 @@
 
 
 
-<h1 align="center">Welcome to Postgrad-System</h1>
+<h1 align="center">Welcome to Javascripist</h1>
 
 
 <div align="center">
-    <img src="https://camo.githubusercontent.com/195f24feca7dc8575566c0c0d848b8cc5affbaabdbc0cb0a8b776faade01ac86/68747470733a2f2f7777772e6275652e6564752e65672f77702d636f6e74656e742f75706c6f6164732f323031382f30382f67726164756174696f6e2d6361702d333030783330302e706e67" alt="Logo" width="80" height="80">
+    <img src="Logo/Logo.png" alt="Logo" width="80" height="80">
 
-  <h3 align="center">Postgrad-System</h3>
+  <h3 align="center">Javascripist</h3>
 
   <p align="center">
-The aim of the project is to implement a system that provides these features to the parties involved!
+10+ Javascripist Project !
+!
     <br />
     <br />
     <a href="mailto:osa.helpme@gmail.com?subject=UnExpected%20Error%20Occured&body=Sorry%20for%20the%20inconvenience%2C%20Please%20describe%20Your%20situation%20and%20emphasis%20the%20Endpoint%20!%0A">Report Bug</a>
    	      ·
-    <a href="mailto:osa.helpme@gmail.com?subject=I%20want%20to%20be%20a%20Contributor%20to%20Postgrade_System&body=Dear%20Omar%20Sherif">Be a Contributer</a>
+    <a href="mailto:osa.helpme@gmail.com?subject=I%20want%20to%20be%20a%20Contributor%20to%20Javascripist&body=Dear%20Omar%20Sherif">Be a Contributer</a>
   </p>
 </div>
 
@@ -60,15 +61,14 @@ The aim of the project is to implement a system that provides these features to 
 
 ## 💻️ Languages & Concepts Used
 
-* Databases:[MSSQL](https://en.wikipedia.org/wiki/Microsoft_SQL_Server)
-* [Asp .net Framework](https://en.wikipedia.org/wiki/ASP.NET#:~:text=ASP.NET%20is%20an%20open,web%20sites%2C%20applications%20and%20services.&text=NET%20Framework%20and%20is%20the,Server%20Pages%20(ASP)%20technology.)
-* [C#]()
-* [Object-oriented programming (OOP)](https://en.wikipedia.org/wiki/Object-oriented_programming#:~:text=Object%2Doriented%20programming%20(OOP),(often%20known%20as%20methods)) (Encapsulation, Abstraction, Inheritance, and Polymorphism)
-* [Exception Handling](https://en.wikipedia.org/wiki/Exception_handling)
+* Javascript
+* DOM Manipulation
 * HTML
 * CSS
-* Javascript
 * [Bootstrap](https://getbootstrap.com/)
+* [Object-oriented programming (OOP)](https://en.wikipedia.org/wiki/Object-oriented_programming#:~:text=Object%2Doriented%20programming%20(OOP),(often%20known%20as%20methods)) (Encapsulation, Abstraction, Inheritance, and Polymorphism)
+* [Exception Handling](https://en.wikipedia.org/wiki/Exception_handling)
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
