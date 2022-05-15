@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 const path = require('path');
 const app = express();
-const apiKey = "397d9a1bc9c34d1c0fdb26e7d6aeb547-us20";
+const apiKey = "//";
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(bodyParser.urlencoded({ extended: true })); // to be able to parsing into post request
