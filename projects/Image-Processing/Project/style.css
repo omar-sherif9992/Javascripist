@@ -1,0 +1,22 @@
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ids {
+    color: green;
+}
+
+.tuts {
+    color: rgb(255, 0, 170);
+}
+
+.names {
+    color: blue;
+}
